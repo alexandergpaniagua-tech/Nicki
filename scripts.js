@@ -1,5 +1,6 @@
-document.getElementById("card1").innerHTML = 1;
-document.getElementById("card2").innerHTML = 2;
-document.getElementById("card3").innerHTML = 3;
-document.getElementById("card4").innerHTML = 4;
-document.getElementById("card5").innerHTML = 5;
+function update() {
+document.getElementById("card1").innerHTML = pick;
+document.getElementById("card2").innerHTML = pick-1;
+document.getElementById("card3").innerHTML = pick-2;
+document.getElementById("card4").innerHTML = pick-3;
+document.getElementById("card5").innerHTML = pick-4; };
