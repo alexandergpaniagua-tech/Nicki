@@ -1,4 +1,6 @@
-function update() {
+var inputElement = document.getElementById("default");
+
+inputElement.addEventListener("click", function update() {
 document.getElementById("card1").innerHTML = pick;
 document.getElementById("card2").innerHTML = pick-1;
 document.getElementById("card3").innerHTML = pick-2;
