@@ -1,0 +1,35 @@
+body {
+  background-image: url(Table.png);
+height: 100vh;
+background-size: cover;
+}
+#hand {
+  padding: none;
+  margin: none;
+}
+#player1 section {
+	height: 10%;
+	width: 7%;
+	display: inline-block;
+}
+
+header{
+  margin: auto;
+  padding: none;
+  height: 11%;
+}
+img{
+margin: 0 auto;
+height: 19%;
+width: 10%;
+}
+footer{
+	text-align: center;
+  margin: 0 auto;
+  padding: none;
+  height: 20%;
+}
+footer section{
+  padding: none;
+  margin: none;
+}
