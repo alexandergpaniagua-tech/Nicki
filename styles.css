@@ -12,6 +12,9 @@ margin: 0 auto;}
 #player1 section {
 background-color: white;
 color: red;
+border-radius:4px;
+border-style: solid;
+border-width: 2px;
 display: inline-block;
 text-align: center;
 height: 10%;
@@ -20,10 +23,10 @@ width: 7%;}
 header{
 position: fixed;
 top: 0;
-left: 25%;
+left: 33%;
   padding: none;
   height: 7%;
-width: 50%;
+width: 33%;
   text-align: center;
   color: gold;
 background-color: black;
